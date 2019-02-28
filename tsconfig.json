@@ -1,0 +1,27 @@
+{
+    "compilerOptions": {
+        "target": "ES6",
+        "moduleResolution": "node",
+        "jsx": "react",
+        "lib": [
+            "dom",
+            "es2017"
+        ],
+        "allowJs": true,
+        "noEmit": true,
+        "strict": true,
+        "isolatedModules": true,
+        "esModuleInterop": true,
+    },
+    "include": [
+        "src/**/*.tsx",
+        "src/**/*.ts"
+    ],
+    "files": [
+        "untyped-modules.d.ts"
+    ],
+    "exclude": [
+        "node_modules",
+        "**/*.spec.js"
+    ],
+}

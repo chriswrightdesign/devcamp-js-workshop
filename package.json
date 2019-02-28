@@ -1,0 +1,35 @@
+{
+  "name": "devcamp-js-workshop",
+  "version": "1.0.0",
+  "description": "Backup setup for devcamp workshop",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel src/*.html -p 3008",
+    "build": "parcel build src/*.html",
+    "watch": "parcel watch src/index.html",
+    "types": "tsc --noEmit --skipLibCheck"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://git.campmon.com/chrisw/devcamp-js-workshop.git"
+  },
+  "keywords": [],
+  "author": "Chris Wright <chrisw@campaignmonitor.campaignmonitor>",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/react": "^16.8.5",
+    "@types/react-dom": "^16.8.2",
+    "@types/react-router": "^4.4.4",
+    "eslint": "^5.14.1",
+    "parcel-bundler": "^1.11.0",
+    "prettier": "^1.16.4",
+    "prettier-eslint": "^8.8.2",
+    "typescript": "^3.3.3333"
+  },
+  "dependencies": {
+    "react": "^16.8.3",
+    "react-dom": "^16.8.3",
+    "react-router": "^4.3.1",
+    "react-router-dom": "^4.3.1"
+  }
+}
